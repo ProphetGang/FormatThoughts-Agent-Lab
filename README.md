@@ -50,7 +50,7 @@ This repo is a proposal sandbox — changes happen here, review happens outside.
 
 ## Updates
 
-**my_second_thought** | [FormatThoughts](https://formatthoughts.com)
+**my_second_thought** | [FormatThoughts](https://formatthoughts.dev)
 
 `src/App.jsx` was reduced from a 185-line monolith to a 14-line router shell. All page logic, state management, and data access were moved into `src/pages/BlogHome.jsx`. A placeholder `src/pages/Labs.jsx` was added at `/labs`. Display components now accept props only — no component imports directly from `src/data/`. `react-router-dom` was introduced as the only new dependency.
 
